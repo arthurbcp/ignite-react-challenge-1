@@ -60,7 +60,7 @@ export function TaskList() {
   }
 
   function handleRemoveTask(id: number) {
-    if(confirm('Deseja realmente remover essa tarefa?'))
+ //   if(confirm('Deseja realmente remover essa tarefa?'))
       setTasks(tasks.filter(t => t.id !== id));
   }
 
